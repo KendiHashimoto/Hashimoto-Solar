@@ -4,6 +4,6 @@
     <ul>
         <li>HTML,CSS e JS</li>
         <li>Bootstrap</li>
-        <li>Jquery</li>
+        <li>Font Awesome</li>
     </ul>
 </div>
