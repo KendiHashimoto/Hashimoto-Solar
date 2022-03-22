@@ -39,7 +39,6 @@ header {
     left: 5px;
 }
 
-
 .navbar-brand {
     padding: 0;
     color: #FFF;
@@ -51,26 +50,28 @@ header {
 }
 
 #navbar-links a {
+    font-size: 17px;
     color: #FFF;
+    margin-right: 10px
 }
 
 #navbar-links a:hover {
      color: rgb(223, 215, 215);
-     border-bottom: 1px solid #FFF;
      transition: 0.5s;
 }
 
-.navbar-expand-lg .navbar-nav .nav-link {
-    padding: 1rem .9rem;
-}
-
-/* CAROUSEL */
+/* SLIDER */
 .container-fluid {
     padding: 0px;
 }
 
+#carousel-container {
+    background: rgb(0, 0, 0);
+}
+
 .carousel-inner img {
     height: 70vh;
+    opacity: 0.5;
 }
 
 #carousel-info {
@@ -80,26 +81,25 @@ header {
 .carousel-caption h2 {
     font-size: 60px;
     margin-bottom: 30px;
-    text-shadow: 2px 2px 5px red;
-
+    text-shadow: 1px 1px black;
 }
 
 .carousel-caption p {
     font-size: 30px;
     margin-bottom: 100px;
-    text-shadow: 2px 2px 5px red;
+    text-shadow: 1px 1px black;
 }
 
 .main-btn:hover {
     background-color: transparent;
     color: #FFF;
-    border: 3px solid rgb(245, 56, 56);
+    border: 3px solid var(--dark-red);
 }
 
 .main-btn {
     font-size: 25px;
     text-transform: uppercase;
-    background-color: rgb(245, 56, 56);
+    background-color: var(--dark-red);
     color: #fff;
     text-decoration: none;
     width: 200px;
@@ -138,4 +138,80 @@ header {
 .main-btn:hover span:after {
     opacity: 1;
     right: 0;
+}
+
+/* ABOUT US */
+.main-title {
+    color: var(--light-red);
+    margin: 65px 100px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.about-containers {
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.about-containers:hover {
+    -moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+    cursor: pointer;
+    color: var(--dark-red)
+}
+
+.about-area h4 {
+    font-size: 35px;
+}
+
+.about-area p {
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+.about-area h4, p , i { 
+    text-align: center;
+    margin: 0 0 20px 0;
+    font-weight: bold;
+}
+
+#about-icons {
+    width: 100%;
+}
+
+#about-icons::after {
+    content: "";
+    width: 250px;
+    height: 4px;
+    background-color: currentColor;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+/* SERVICES */
+#services-container {
+    background-color: rgba(221, 221, 221, 0.52);
+}
+
+/* SOLAR ENERGY */
+#solar-container {
+    background-color: rgba(173, 173, 173, 0.52);
+}
+
+/* PROJECTS */
+#projects-container {
+    background-color: rgba(131, 131, 131, 0.52);
+}
+
+/* BUDGET */ 
+#budget-container {
+    background-color: var(--light-red)
+}
+
+/* CONTACTS */
+#contacts-container {
+    background-color: rgba(78, 78, 78, 0.52);
 }
