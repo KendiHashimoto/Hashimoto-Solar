@@ -52,7 +52,6 @@ header {
 
 .carousel-item img {
     height: 60vh;
-    opacity: 0.5;
 }
 
 #carousel-info {
@@ -104,7 +103,6 @@ header {
 /* ABOUT US */
 .main-title {
     color: var(--light-red);
-    margin: 65px 100px;
 }
 
 .about-containers {
@@ -127,8 +125,19 @@ header {
 }
 
 /* SERVICES */
-#services-container {
-    background-color: rgba(221, 221, 221, 0.52);
+#services {
+    background-color: var(--light-red);
+}
+
+.card {
+    border: 0px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.card:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 /* SOLAR ENERGY */
