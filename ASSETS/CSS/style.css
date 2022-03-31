@@ -2,7 +2,6 @@
     --light-red: #F23545;
     --dark-red: #BF3641;
     --light-blue: #548DBF;
-    --dark-blue: #5483BF;
 }
 
 /* GENERALS */ 
@@ -119,6 +118,16 @@ header {
     color: var(--light-red);
 }
 
+.main-title:after {
+    content: "";
+    width: 250px;
+    height: 4px;
+    background-color: currentColor;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
 .about-containers {
     transition: 0.5s;
 }
@@ -167,10 +176,10 @@ header {
     height: 100%;
 }
 
-#img-container {
+#benefits-img {
     background-size: cover;
     height: 100%;
-    background-image: url(../IMG/pexels-vivint-solar-2850472.jpg);
+    background-image: url(../IMG/pexels-jonas-ferlin-3025562.jpg);
 }
 
 #benefits-container {
@@ -196,17 +205,26 @@ header {
 }
 
 /* PROJECTS */
-#projects-container {
-    background-color: rgba(131, 131, 131, 0.52);
-}
 
 /* BUDGET */ 
+#budget-img {
+    background-attachment: static;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url(../IMG/pexels-breakingpic-3305.jpg);
+}
+
 #whatsapp-icon {
-    color: rgb(44, 185, 44);
+    color: rgb(0, 255, 0);
 }
 
 #whatsapp-icon:hover {
-    color: rgb(0, 218, 0);
+    background-color: transparent;
+}
+
+.whatsapp-name {
+    font-size: 35px;
 }
 
 /* FOOTER */
@@ -227,6 +245,10 @@ footer {
     color: rgb(177, 195, 255);
 }
 
+.company-email {
+    font-size: 23px;
+}
+
 /* OTHERS */
 .copyright {
     font-family: roboto, arial, helvetica;
@@ -242,19 +264,18 @@ footer {
 }
 
 .arrow-btn a {
-    background-color: rgb(255, 255, 255);
+    background-color: var(--light-blue);
     height: 39px;
     width: 37px;
     text-align: center;
     display: block;
     border-radius: 100%;
-    border: 3px solid var(--light-red);
 }
 
 .arrow-btn a span {
-    line-height: 34px;
+    line-height: 35px;
     font-size: 25px;
-    color: var(--light-red);
+    color: #FFF;
 }
 
 .whatsapp-fixed {
@@ -277,10 +298,27 @@ footer {
     #benefits-container {
         width: 100%;
     }
-}  
+} 
+
+@media (max-width: 991px) {
+    #navbar-links a {
+        font-size: 23px;
+        text-align: center;
+    }
+}
 
 @media (max-width: 768px) {
     .p-icons {
         margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 425px) {
+    #hashimoto-name {
+        font-size: 20px;
+    }
+
+    .company-email {
+        font-size: 15px;
     }
 }
