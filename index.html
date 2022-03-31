@@ -29,33 +29,44 @@
     <!-- NAVBAR -->
     <header>
 
-        <div class="container-fluid">
-            <nav class="navbar navbar-expand-lg" id="nav-container">
+        <nav class="navbar navbar-expand-lg" id="nav-container">
+            <div class="container-fluid">
                 <a class="navbar-brand d-flex align-items-center" href="index.html">
                     <img class="logo" src="ASSETS/IMG/LOGO HASHIOMOTO.png" alt="Logo Hashimoto Solar">
-                    <span class="fw-bold fs-4 ms-2">Hashimoto Solar</span>
+                    <span class="fw-bold ms-2" id="hashimoto-name">Hashimoto Solar</span>
                 </a>
 
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links"
-                    aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false"
+                    aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
                 <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
-                    <div class="navbar-nav">
-                        <a class="nav-item nav-link ms-1" id="home-menu" href="#">Home <i
-                                class="fa-solid fa-house"></i></a>
-                        <a class="nav-item nav-link ms-1" id="sobre-menu" href="#about">Empresa <i
-                                class="fa-solid fa-building"></i></a>
-                        <a class="nav-item nav-link ms-1" id="serviços menu" href="#services">Serviços <i
-                                class="fa-solid fa-briefcase"></i></a>
-                        <a class="nav-item nav-link ms-1" id="projetos-menu" href="#projects">Projetos <i
-                                class="fa-solid fa-person-digging"></i></i></a>
-                        <a class="nav-item nav-link ms-1" id="contatos-menu" href="#footer">Contato <i
-                                class="fa-solid fa-phone"></i></a>
-                    </div>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active ms-2" id="home-menu" href="#">Home
+                                <i class="fa-solid fa-house"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ms-2" id="sobre-menu" href="#about">Empresa
+                                <i class="fa-solid fa-building"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ms-2" id="serviços menu" href="#services">Serviços
+                                <i class="fa-solid fa-briefcase"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ms-2" id="projetos-menu" href="#projects">Projetos
+                                <i class="fa-solid fa-person-digging"></i></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ms-2" id="contatos-menu" href="#footer">Contato
+                                <i class="fa-solid fa-phone"></i></a>
+                        </li>
+                    </ul>
                 </div>
-            </nav>
+        </nav>
         </div>
 
     </header>
@@ -69,41 +80,39 @@
                 <div id="mainSlider" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="ASSETS/IMG/solar-energy-862602_1920.jpg" 
-                            class="d-block w-100 opacity-50"
+                            <img src="ASSETS/IMG/solar-energy-862602_1920.jpg" class="d-block w-100 opacity-50"
                                 alt="placas solares">
                             <div id="carousel-info" class="carousel-caption d-md-block">
                                 <h2 class="fw-bolder fs-1 mb-3 pt-3">Orçamento</h2>
                                 <p class="fw-bold fs-4 mb-5">Realize um orçamento sem compromisso conosco.</p>
                                 <a href="#budget" class="main-btn">
-                                    <span class="text-uppercase">Solicitar <i
-                                            class="fa-solid fa-file-signature"></i></span>
+                                    <span class="text-uppercase">Solicitar
+                                        <i class="fa-solid fa-file-signature"></i></span>
                                 </a>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img src="ASSETS/IMG/photovoltaic-2138992_1920.jpg" 
-                            class="d-block w-100 opacity-50"
+                            <img src="ASSETS/IMG/photovoltaic-2138992_1920.jpg" class="d-block w-100 opacity-50"
                                 alt="placas solares">
                             <div id="carousel-info" class="carousel-caption d-md-block">
                                 <h2 class="fw-bolder fs-1 mb-3 pt-3">Serviços</h2>
                                 <p class="fw-bold fs-4 mb-5">Serviços gerais de engenharia voltados para a energia solar
                                     fotovoltaica.</p>
                                 <a href="#services" class="main-btn">
-                                    <span class="text-uppercase">Saiba mais <i
-                                            class="fa-solid fa-circle-info"></i></span>
+                                    <span class="text-uppercase">Saiba mais
+                                        <i class="fa-solid fa-circle-info"></i></span>
                                 </a>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img src="ASSETS/IMG/solar-plaque.jpg" 
-                            class="d-block w-100 opacity-50" alt="placas solares">
+                            <img src="ASSETS/IMG/solar-plaque.jpg" class="d-block w-100 opacity-50"
+                                alt="placas solares">
                             <div id="carousel-info" class="carousel-caption d-md-block">
                                 <h2 class="fw-bolder fs-1 mb-3 pt-3">Benefícios</h2>
                                 <p class="fw-bold fs-4 mb-5">Conheça os benefícios da energia solar.</p>
                                 <a href="#benefits" class="main-btn">
-                                    <span class="text-uppercase">Saiba mais <i
-                                            class="fa-solid fa-solar-panel"></i></span>
+                                    <span class="text-uppercase">Conhecer
+                                        <i class="fa-solid fa-share"></i></span>
                                 </a>
                             </div>
                         </div>
@@ -173,46 +182,46 @@
             <div class="container-fluid pt-5 pb-5">
                 <h5 class="text-uppercase text-center fw-bold fs-2 pb-5 text-white">Serviços</h5>
                 <div class="card-group row">
-                    <div class="col-md-3 pb-4">
-                        <div class="card text-center text-white bg-dark">
-                            <img src="/ASSETS/IMG/scott-graham-5fNmWej4tAA-unsplash.jpg" class="card-img-top" 
-                            alt="Pessoas financiando">
+                    <div class="col-lg-3 pb-4">
+                        <div class="card text-center text-white">
+                            <img src="/ASSETS/IMG/scott-graham-5fNmWej4tAA-unsplash.jpg" class="card-img-top"
+                                alt="Pessoas financiando">
                             <div class="card-body">
                                 <h5 class="card-title fs-3">Financiamento</h5>
-                                <p class="card-text fs-6">Facilitamos seu financiamento através das nossas plataformas, 
+                                <p class="card-text fs-6">Facilitamos seu financiamento através das nossas plataformas,
                                     agilizando o processo tanto para correntista bancários ou não.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 pb-4">
-                        <div class="card text-center text-white bg-dark">
-                            <img src="/ASSETS/IMG/markus-spiske-7PMGUqYQpYc-unsplash.jpg" class="card-img-top" 
-                            alt="Carimbo no papel">
+                    <div class="col-lg-3 pb-4">
+                        <div class="card text-center text-white">
+                            <img src="/ASSETS/IMG/markus-spiske-7PMGUqYQpYc-unsplash.jpg" class="card-img-top"
+                                alt="Carimbo no papel">
                             <div class="card-body">
                                 <h5 class="card-title fs-3">Homologação</h5>
-                                <p class="card-text fs-6">Preparamos seu projeto e damos entrada junto a equatorial 
+                                <p class="card-text fs-6">Preparamos seu projeto e damos entrada junto a equatorial
                                     para aprovação.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 pb-4">
-                        <div class="card text-center text-white bg-dark">
-                            <img src="/ASSETS/IMG/pexels-anamul-rezwan-1216589.jpg" class="card-img-top" 
-                            alt="Engenheiros analisando projeto">
+                    <div class="col-lg-3 pb-4">
+                        <div class="card text-center text-white">
+                            <img src="/ASSETS/IMG/pexels-anamul-rezwan-1216589.jpg" class="card-img-top"
+                                alt="Engenheiros analisando projeto">
                             <div class="card-body">
                                 <h5 class="card-title fs-3">Obras de engenharia</h5>
-                                <p class="card-text fs-6">Fazemos adequações de padrões, subestações de aumento de 
+                                <p class="card-text fs-6">Fazemos adequações de padrões, subestações de aumento de
                                     carga e seu projeto de energia solar.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 pb-4">
-                        <div class="card text-center text-white bg-dark">
-                            <img src="/ASSETS/IMG/pexels-cytonn-photography-955395.jpg" class="card-img-top" 
-                            alt="Aperto de mãos">
+                    <div class="col-lg-3 pb-4">
+                        <div class="card text-center text-white">
+                            <img src="/ASSETS/IMG/pexels-cytonn-photography-955395.jpg" class="card-img-top"
+                                alt="Aperto de mãos">
                             <div class="card-body">
                                 <h5 class="card-title fs-3">Venda</h5>
-                                <p class="card-text fs-6">Temos uma excelente equipe capacitada para atender e explicar 
+                                <p class="card-text fs-6">Temos uma excelente equipe capacitada para atender e explicar
                                     quaisquer dúvidas tanto na pré quanto na pós-venda.</p>
                             </div>
                         </div>
@@ -225,9 +234,68 @@
         <!-- SOLAR ENERGY -->
         <section id="benefits">
 
-            <div class="container-fluid w-100 h-50" id="solar-container">
-                <h6 class="d-flex justify-content-center text-uppercase">Como funciona a energia solar?</h6>
-
+            <div id="apply-area">
+                <div class="container-fluid p-0">
+                    <div class="row">
+                        <div class="col-md-5 apply-box" id="img-container">
+                        </div>
+                        <div class="col-md-7" id="benefits-container">
+                            <h6 class="text-uppercase fs-4 pb-5 text-center fw-bold">Benefícios da energia solar</h6>
+                            <div class="row text-center">
+                                <div class="col-md-6">
+                                    <i class="fa-solid fa-plug-circle-minus fa-2xl text-info" id="benefits-icons"></i>
+                                    <h6 class="pb-4 fs-6 fw-bold">Redução de gastos com eletricidade</h6>
+                                    <p class="p-icons fw-bold">
+                                        Ao instalar o sistema de energia solar, você praticamente não terá mais gastos 
+                                        com energia elétrica. O custo será praticamente zero.
+                                    </p>
+                                </div>
+                                <div class="col-md-6">
+                                    <i class="fa-solid fa-solar-panel fa-2xl text-warning" id="benefits-icons"></i>
+                                    <h6 class="pb-4 fs-6 fw-bold">Instalação rápida e fácil</h6>
+                                    <p class="p-icons fw-bold">
+                                        A instalação leva em média 5 dias, sem muitas alterações no imóvel, utilizamos a fiação já
+                                        existente e não é preciso desligar a rede elétrica durante a instalação, somente na fase final da do processo.
+                                    </p>
+                                </div>
+                                <div class="col-md-6">
+                                    <i class="fa-solid fa-hand-holding-dollar fa-2xl"></i>
+                                    <h6 class="pb-4 fs-6 fw-bold">Valorização do imóvel</h6>
+                                    <p class="p-icons fw-bold">
+                                        A redução da conta de luz é vista como um grande diferencial na hora de escolher um imóvel para comprar.
+                                        Portanto, mesmo que você não queira ficar no imóvel para sempre, com certeza o valor de venda será maior.
+                                    </p>
+                                </div>
+                                <div class="col-md-6">
+                                    <i class="fa-solid fa-screwdriver-wrench fa-2xl text-info" id="benefits-icons"></i>
+                                    <h6 class="pb-4 fs-6 fw-bold">Pouca manutenção</h6>
+                                    <p class="p-icons fw-bold">
+                                        O sistema fotovoltaico não possui partes móveis que entrem em atrito entre si e 
+                                        provoquem desgaste ao longo do tempo, não há comprometimento da vida útil das 
+                                        peças os custos de manuntenção são baixos e nem requer trocas constantes.
+                                    </p>
+                                </div>
+                                <div class="col-md-6">
+                                    <i class="fa-solid fa-house-circle-check fa-2xl text-warning"
+                                        id="benefits-icons"></i>
+                                    <h6 class="pb-4 fs-6 fw-bold">Enviar a energia para outro local</h6>
+                                    <p class="p-icons fw-bold">
+                                        O excedente da energia produzido pelas placas podem ser utilizados em outros locais.
+                                    </p>
+                                </div>
+                                <div class="col-md-6">
+                                    <i class="fa-solid fa-coins fa-2xl"></i>
+                                    <h6 class="pb-4 fs-6 fw-bold">Adquira créditos energéticos</h6>
+                                    <p class="p-icons fw-bold">
+                                        Excedente da energia pode ser injetado na rede de distribuição e ficar como crédito para ser utilizado em até 60 meses.
+                                        Esse crédito permite que você faça uso da energia elétrica quando a produção de energia solar não for possível, ou seja, 
+                                        você continua utilizando seus equipamentos elétricos sem aumentar o valor da conta.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
         </section>
@@ -235,7 +303,7 @@
         <!-- PROJECTS -->
         <section id="projects">
 
-            <div class="container-fluid" id="projects-container">
+            <div class="container-fluid pt-5 pb-5">
                 <h6 class="text-uppercase">Nossos projetos</h6>
             </div>
 
@@ -249,7 +317,7 @@
 
                 <h6 class="fs-4 fw-bold text-center">Nos contate pelo whatsapp</h6>
                 <div class="d-flex justify-content-center">
-                    <a class="btn btn-outline-danger btn-floating m-2 mb-4 border-2"
+                    <a class="btn btn-outline-dark btn-floating m-2 mb-4 border-2" id="whatsapp-icon"
                         href="https://web.whatsapp.com/send?phone=5591988278405" target="_blank" role="button">
                         <i class="fa-brands fa-2x fa-whatsapp"></i>
                     </a>
@@ -261,29 +329,18 @@
                             <h6 class="fs-4 pb-4 fw-bold">Ou nos envie um e-mail</h6>
                             <label for="necessary" class="form-label fs-6 fw-bold">Decreva seu pedido</label>
                             <textarea name="message" placeholder="Escreva aqui" required
-                                class="form-control border-danger border-3"></textarea>
+                                class="form-control border-dark border-3" autofocus="autofocus"></textarea>
                         </div>
-                        <select class="form-select mb-3 w-50 mx-auto border border-danger border-3 btn-outline-danger"
-                            aria-label="Default select example" name="Tipo de serviço">
+                        <select class="form-select mb-3 w-50 mx-auto border border-dark border-3" aria-label="Services"
+                            name="Tipo de serviço" autofocus="autofocus">
                             <option selected>Escolha uma categoria</option>
-                            <option value="Energia Solar">Energia Solar</option>
-                            <option value="Mudanças">Mudanças</option>
-                            <option value="Manuntenção">Manuntenção</option>
-                            <option value="Cuidadores">Cuidadores</option>
-                            <option value="Educadores">Educadores</option>
-                            <option value="Eletrônica">Eletrônica</option>
-                            <option value="Advogados">Advogados</option>
-                            <option value="Estética">Estética</option>
-                            <option value="Hidráulico">Hidráulico</option>
-                            <option value="Informática">Informática</option>
-                            <option value="Investimentos">Investimentos</option>
-                            <option value="Buffet">Buffet</option>
-                            <option value="Obras">Obras</option>
-                            <option value="Publicidade">Publicidade</option>
-                            <option value="Transporte">Transporte</option>
+                            <option value="Residencial">Residencial</option>
+                            <option value="Comercial">Comercial</option>
+                            <option value="Industrial">Industrial</option>
+                            <option value="Agro">Agro</option>
                         </select>
-                        <select class="form-select mb-3 w-50 mx-auto border border-danger border-3 btn-outline-danger"
-                            aria-label="Default select example" name="Bairro">
+                        <select class="form-select mb-3 w-50 mx-auto border border-dark border-3" aria-label="District"
+                            name="Bairro" autofocus="autofocus">
                             <option selected>Seu bairro</option>
                             <option value="Betânia">Betânia</option>
                             <option value="Bom Jesus">Bom Jesus</option>
@@ -323,7 +380,7 @@
 
         <footer id="footer">
 
-            <div class="container p-5">
+            <div class="container pt-5 pb-5">
                 <div class="row pb-3 pt-3">
                     <div class="col-md-6 col-lg-6 col-xl-7 mx-auto mb-4">
                         <h6 class="text-uppercase mb-4 text-start fs-3">Hashimoto Solar S/A</h6>
@@ -350,16 +407,16 @@
                             Siga-nos nas redes sociais
                         </h6>
                         <div class="text-center">
-                            <a class="btn btn-outline-light btn-floating m-2 border-2"
+                            <a class="btn btn-outline-light btn-floating m-2 border-2" id="social-networks"
                                 href="https://www.instagram.com/hashimoto_solar/" target="_blank" role="button">
                                 <i class="fa-brands fa-2x fa-instagram"></i>
                             </a>
-                            <a class="btn btn-outline-light btn-floating m-2 border-2" href="#!" target="_blank"
-                                role="button">
+                            <a class="btn btn-outline-light btn-floating m-2 border-2" id="social-networks" href="#!"
+                                target="_blank" role="button">
                                 <i class="fa-brands fa-2x ps-1 pe-1 fa-facebook-f"></i>
                             </a>
-                            <a class="btn btn-outline-light btn-floating m-2 border-2" href="#!" target="_blank"
-                                role="button">
+                            <a class="btn btn-outline-light btn-floating m-2 border-2" id="social-networks" href="#!"
+                                target="_blank" role="button">
                                 <i class="fa-brands fa-2x fa-twitter"></i>
                             </a>
                         </div>
@@ -373,6 +430,13 @@
         </footer>
 
     </main>
+
+    <!-- WHATSAPP ICON -->
+    <div class="whatsapp-fixed bg-light">
+        <a class="link-success" href="https://web.whatsapp.com/send?phone=5591988278405" target="_blank" role="button">
+            <i class="fa-brands fa-whatsapp-square fa-2xl"></i>
+        </a>
+    </div>
 
     <!-- BACK TO TOP BUTTON -->
     <div class="arrow-btn">
