@@ -26,6 +26,10 @@ header {
     background-color: var(--dark-red);
 }
 
+.nav-container {
+    border-bottom: 5px solid black;
+}
+
 .logo {
     width: 150px;
 }
@@ -36,7 +40,7 @@ header {
 
 #navbar-links a {
     color: #FFF;
-    font-size: 17px;
+    font-size: 15px;
 }
 
 #navbar-links a:hover {
@@ -286,7 +290,7 @@ footer {
 }
 
 /* RESPONSIVE */
-@media (max-width: 1213px) {
+@media (max-width: 1618px) {
     #apply-area {
         height: auto;
     }
@@ -297,6 +301,10 @@ footer {
 
     #benefits-container {
         width: 100%;
+    }
+
+    .p-icons {
+        margin-bottom: 75px;
     }
 } 
 
@@ -309,7 +317,7 @@ footer {
 
 @media (max-width: 768px) {
     .p-icons {
-        margin-bottom: 15px;
+        margin-bottom: 75px;
     }
 }
 
@@ -318,7 +326,7 @@ footer {
         font-size: 20px;
     }
 
-    .company-email {
-        font-size: 15px;
+    .adress, .cep-adress, .company-email, .tell {
+        font-size: 18px;
     }
 }

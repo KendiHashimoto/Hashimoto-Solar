@@ -13,13 +13,11 @@
     <!-- FONT -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500;700&family=Roboto:ital,wght@0,400;0,700;1,300&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500;700&family=Roboto:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet">
 
     <!-- STYLES -->
+    <link rel="shortcut icon" href="/ASSETS/IMG/favicon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="ASSETS/CSS/Reset.css">
-    <link rel="shortcut icon" href="ASSETS/IMG/icon/favicon-32x32.png" type="image/x-icon">
     <link rel="stylesheet" href="ASSETS/CSS/style.css">
     <title>Hashimoto Solar</title>
 </head>
@@ -45,16 +43,22 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link ms-2" id="sobre-menu" href="#about">Empresa
-                                <i class="fa-solid fa-building"></i></a>
+                            <a class="nav-link ms-2 fw-bold" id="sobre-menu" href="#!">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link ms-2" id="projetos-menu" href="#projects">Projetos
-                                <i class="fa-solid fa-person-digging"></i></i></a>
+                            <a class="nav-link ms-2 fw-bold" id="sobre-menu" href="#!">Energia Solar</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link ms-2" id="contatos-menu" href="#footer">Contato
-                                <i class="fa-solid fa-phone"></i></a>
+                            <a class="nav-link ms-2 fw-bold" id="sobre-menu" href="#!">Calculadora Solar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ms-2 fw-bold" id="sobre-menu" href="#about">Empresa</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ms-2 fw-bold" id="projetos-menu" href="#projects">Projetos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ms-2 fw-bold" id="contatos-menu" href="#footer">Contato</a>
                         </li>
                     </ul>
                 </div>
@@ -130,7 +134,7 @@
             <h3 class="main-title text-uppercase text-center pt-5 pb-5 fs-2 fw-bold">Sobre a Hashimoto Solar</h3>
             <div class="container-fluid pb-5">
                 <div class="row d-flex justify-content-evenly">
-                    <div class="col-lg-4 about-containers">
+                    <div class="col-xxl-4 about-containers">
                         <i class="fa-solid fa-4x fa-timeline text-center mb-2 w-100" id="about-icons"></i>
                         <h4 class="text-uppercase fs-4 fw-bold text-center mt-2 mb-2">História</h4>
                         <p class="fs-5 mb-3 fw-bold text-center mb-2">
@@ -142,7 +146,7 @@
                             da equipe e nossos clientes.
                         </p>
                     </div>
-                    <div class="col-lg-7">
+                    <div class="col-xxl-7">
                         <div class="about-containers">
                             <i class="fa-solid fa-4x fa-bullseye text-center mb-2 w-100" id="about-icons"></i>
                             <h4 class="text-uppercase fs-4 fw-bold text-center mt-2 mb-2">Objetivo</h4>
@@ -168,13 +172,18 @@
 
         </section>
 
+        <!-- HOW TO WORK -->
+        <section id="omo-funciona">
+
+        </section>
+
         <!-- SERVICES -->
         <section id="services">
 
             <div class="container-fluid pt-5 pb-5">
                 <h5 class="main-title text-uppercase text-center fw-bold fs-2 pb-5 text-white">Serviços</h5>
                 <div class="card-group row">
-                    <div class="col-lg-3 pb-4">
+                    <div class="col-xl-3 pb-4">
                         <div class="card text-center text-white">
                             <img src="/ASSETS/IMG/scott-graham-5fNmWej4tAA-unsplash.jpg" class="card-img-top"
                                 alt="Pessoas financiando">
@@ -185,7 +194,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 pb-4">
+                    <div class="col-xl-3 pb-4">
                         <div class="card text-center text-white">
                             <img src="/ASSETS/IMG/markus-spiske-7PMGUqYQpYc-unsplash.jpg" class="card-img-top"
                                 alt="Carimbo no papel">
@@ -196,7 +205,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 pb-4">
+                    <div class="col-xl-3 pb-4">
                         <div class="card text-center text-white">
                             <img src="/ASSETS/IMG/pexels-anamul-rezwan-1216589.jpg" class="card-img-top"
                                 alt="Engenheiros analisando projeto">
@@ -207,7 +216,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 pb-4">
+                    <div class="col-xl-3 pb-4">
                         <div class="card text-center text-white">
                             <img src="/ASSETS/IMG/pexels-cytonn-photography-955395.jpg" class="card-img-top"
                                 alt="Aperto de mãos">
@@ -226,8 +235,7 @@
         <!-- SOLAR ENERGY -->
         <section id="benefits">
 
-            <div id="apply-area">
-                <div class="container-fluid p-0">
+                <div class="container-fluid p-0" id="apply-area">
                     <div class="row">
                         <div class="col-md-4" id="benefits-img"></div>
                         <div class="col-md-8" id="benefits-container">
@@ -297,17 +305,19 @@
                         </div>
                     </div>
                 </div>
-            </div>
 
         </section>
 
         <!-- PROJECTS -->
+        <section id="projects">
+
+        </section>
 
         <!-- BUDGET -->
         <section id="budget">
 
             <div class="container-fluid p-0 text-white" id="budget-img">
-                <div class="row align-items-center vh-100 pt-5 pb-5">
+                <div class="row align-items-center pt-5 pb-5">
                     <div class="col-lg-6 text-center">
                         <h6 class="main-title text-white text-uppercase fs-2 pb-2 fw-bold text-center">Orçamento
                             Gratuito
@@ -325,11 +335,13 @@
                                 <h6 class="main-title text-white text-center fs-3 pb-4 fw-bold">Mande um e-mail</h6>
                                 <label for="necessary" class="form-label fs-6 fw-bold">Decreva seu pedido</label>
                                 <textarea name="Descrição do pedido de orçamento" placeholder="Escreva aqui" required
-                                    class="form-control border-white rounded-pill w-100 border-3" autofocus="autofocus"></textarea>
+                                    class="form-control border-white rounded-pill w-100 border-3"
+                                    autofocus="autofocus"></textarea>
                             </div>
                             <label for="InputEmail1" class="form-label"></label>
-                            <input type="email" name="email" class="form-control mb-3 w-50 mx-auto border border-white rounded-pill border-3" 
-                            id="exampleInputEmail1" placeholder="e-mail" aria-describedby="emailHelp">
+                            <input type="email" name="email"
+                                class="form-control mb-3 w-50 mx-auto border border-white rounded-pill border-3"
+                                id="exampleInputEmail1" placeholder="e-mail" aria-describedby="emailHelp">
                             <select class="form-select mb-3 w-50 mx-auto border border-white rounded-pill border-3"
                                 aria-label="Services" name="Tipo de serviço" autofocus="autofocus">
                                 <option selected>Escolha uma categoria</option>
@@ -368,7 +380,8 @@
                                 <option value="Saudade">Saudade</option>
                                 <option value="Titanlândia">Titanlândia</option>
                             </select>
-                            <button class="btn btn-outline-light fw-bold text-uppercase border-3 rounded-pill mx-auto" type="submit">
+                            <button class="btn btn-outline-light fw-bold text-uppercase border-3 rounded-pill mx-auto"
+                                type="submit">
                                 Enviar
                             </button>
                         </form>
@@ -376,46 +389,48 @@
                 </div>
             </div>
         </section>
+        
 
         <footer id="footer">
 
-            <div class="container pt-2 pb-2">
-                <div class="row pb-3 pt-3">
-                    <div class="col-md-6 col-lg-6 col-xl-7 mx-auto mb-4">
+            <div class="container-fluid pt-2 pb-2">
+                <div class="row pb-3 pt-3 mx-auto">
+                    <div class="col-lg-6 mb-4 mx-auto">
                         <h6 class="text-uppercase mb-4 text-start fs-3">Hashimoto Solar S/A</h6>
                         <p class="fs-6 text-start mt-3">
-                            <i class="fas fa-home me-3"></i>
+                            <i class="adress fas fa-home "></i>
                             Santa Lídia, Euzébio Foreliza, 3671 - Castanhal - PA
                         </p>
                         <p class="company-email text-start mt-3">
-                            <i class="fas fa-envelope me-3"></i>
+                            <i class="fas fa-envelope "></i>
                             hashimotosolar2022@gmail.com
                         </p>
                         <p class="fs-6 text-start mt-3">
-                            <i class="fas fa-phone me-3"></i>
+                            <i class="fas fa-phone "></i>
                             <a href="tel:+559188278405" class="phone">+55 91 98827-8405</a>
                         </p>
                         <p class="fs-6 text-start mt-3">
-                            <i class="fa-solid fa-location-dot me-3"></i> CEP 68.740-410
+                            <i class="fa-solid fa-location-dot"></i> CEP 68.740-410
                         </p>
                     </div>
 
                     <!-- SOCIAL MEDIAS -->
-                    <div class="col-md-5 col-lg-6 col-xl-5 mx-auto mb-4">
+                    <div class="col-lg-5 mb-4 mx-auto">
                         <h6 class="mb-4 text-uppercase fs-5 pt-3 text-center" id="follow-us">
                             Siga-nos nas redes sociais
                         </h6>
                         <div class="text-center">
                             <a class="btn btn-outline-light btn-floating m-2 border-2" id="social-networks"
-                                href="https://www.instagram.com/hashimoto_solar/" target="_blank" role="button">
+                                href="https://www.instagram.com/hashimotosolar/" target="_blank" role="button">
                                 <i class="fa-brands fa-2x fa-instagram"></i>
                             </a>
-                            <a class="btn btn-outline-light btn-floating m-2 border-2" id="social-networks" href=""
+                            <a class="btn btn-outline-light btn-floating m-2 border-2" id="social-networks" 
+                            href="https://www.facebook.com/Hashimoto-Solar-106407522031401"
                                 target="_blank" role="button">
                                 <i class="fa-brands fa-2x ps-1 pe-1 fa-facebook-f"></i>
                             </a>
-                            <a class="btn btn-outline-light btn-floating m-2 border-2" id="social-networks" href="https://twitter.com/HashimotoSolar"
-                                target="_blank" role="button">
+                            <a class="btn btn-outline-light btn-floating m-2 border-2" id="social-networks"
+                                href="https://twitter.com/HashimotoSolar" target="_blank" role="button">
                                 <i class="fa-brands fa-2x fa-twitter"></i>
                             </a>
                         </div>
