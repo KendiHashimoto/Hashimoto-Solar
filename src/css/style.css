@@ -40,7 +40,7 @@ header {
 
 #navbar-links a {
     color: #FFF;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 #navbar-links a:hover {
@@ -171,7 +171,7 @@ header {
     filter: drop-shadow(0 0 3px #000);
 }
 
-/* SOLAR ENERGY */
+/* BENEFITS */
 #apply-area {
     height: 100vh;
 }
@@ -183,7 +183,7 @@ header {
 #benefits-img {
     background-size: cover;
     height: 100%;
-    background-image: url(../IMG/pexels-jonas-ferlin-3025562.jpg);
+    background-image: url(/assets/img/pexels-jonas-ferlin-3025562.jpg);
 }
 
 #benefits-container {
@@ -216,7 +216,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url(../IMG/pexels-breakingpic-3305.jpg);
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url(/assets/img/pexels-breakingpic-3305.jpg);
 }
 
 #whatsapp-icon {
