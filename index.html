@@ -13,7 +13,9 @@
     <!-- FONT -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500;700&family=Roboto:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500;700&family=Roboto:ital,wght@0,400;0,700;1,300&display=swap"
+        rel="stylesheet">
 
     <!-- FAVICON -->
     <link rel="shortcut icon" href="/assets/img/favicon/favicon.ico" type="image/x-icon">
@@ -33,7 +35,7 @@
     <!-- NAVBAR -->
     <header>
 
-        <nav class="navbar navbar-expand-lg border-bottom border-2 border-white" id="nav-container">
+        <nav class="navbar fixed-top navbar-expand-lg border-bottom border-1 border-white" id="nav-container">
             <div class="container-fluid">
                 <a class="navbar-brand d-flex align-items-center" href="index.html">
                     <img class="logo" src="assets/img/logo.png" alt="Logo Hashimoto Solar">
@@ -46,16 +48,16 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+                <div class="collapse navbar-collapse justify-content-end me-5" id="navbar-links">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link ms-2 fw-bold" id="sobre-menu" href="#!">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link ms-2 fw-bold" id="sobre-menu" href="#solar-energy">Energia Solar</a>
+                            <a class="nav-link ms-2 fw-bold" href="#!">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link ms-2 fw-bold" id="sobre-menu" href="#about">Empresa</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ms-2 fw-bold" id="solar-menu" href="#solar-energy">Energia Solar</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link ms-2 fw-bold" id="projetos-menu" href="#projects">Projetos</a>
@@ -66,7 +68,6 @@
                     </ul>
                 </div>
         </nav>
-        </div>
 
     </header>
 
@@ -75,14 +76,14 @@
         <!-- SLIDER -->
         <section id="carousel">
 
-            <div class="container-fluid p-0" id="carousel-container">
+            <div class="container-fluid p-0 mt-5" id="carousel-container">
                 <div id="mainSlider" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <img src="assets/img/solar-energy-862602_1920.jpg" class="d-block w-100 opacity-50"
                                 alt="placas solares">
                             <div id="carousel-info" class="carousel-caption d-md-block">
-                                <h2 class="fw-bolder fs-1 mb-3 pt-3">Orçamento</h2>
+                                <h2 class="fw-bolder fs-1 mb-3 pt-5">Orçamento</h2>
                                 <p class="fw-bold fs-4 mb-5">Realize um orçamento sem compromisso conosco.</p>
                                 <a href="#budget" class="main-btn">
                                     <span class="text-uppercase">Solicitar
@@ -94,7 +95,7 @@
                             <img src="assets/img/photovoltaic-2138992_1920.jpg" class="d-block w-100 opacity-50"
                                 alt="placas solares">
                             <div id="carousel-info" class="carousel-caption d-md-block">
-                                <h2 class="fw-bolder fs-1 mb-3 pt-3">Serviços</h2>
+                                <h2 class="fw-bolder fs-1 mb-3 pt-5">Serviços</h2>
                                 <p class="fw-bold fs-4 mb-5">Serviços gerais de engenharia voltados para a energia solar
                                     fotovoltaica.</p>
                                 <a href="#services" class="main-btn">
@@ -107,7 +108,7 @@
                             <img src="assets/img/solar-plaque.jpg" class="d-block w-100 opacity-50"
                                 alt="placas solares">
                             <div id="carousel-info" class="carousel-caption d-md-block">
-                                <h2 class="fw-bolder fs-1 mb-3 pt-3">Benefícios</h2>
+                                <h2 class="fw-bolder fs-1 mb-3 pt-5">Benefícios</h2>
                                 <p class="fw-bold fs-4 mb-5">Conheça os benefícios da energia solar.</p>
                                 <a href="#benefits" class="main-btn">
                                     <span class="text-uppercase">Conhecer
@@ -134,11 +135,11 @@
         <!-- ABOUT US -->
         <section id="about">
 
-            <h3 class="main-title text-uppercase text-center pt-5 pb-5 fs-2 fw-bold">Sobre a Hashimoto Solar</h3>
-            <div class="container-fluid pb-5">
+            <div class="container-fluid pt-5 pb-5">
+                <h3 class="main-title text-uppercase text-center pb-5 fs-2 fw-bold">Sobre a Hashimoto Solar</h3>
                 <div class="row d-flex justify-content-evenly">
                     <div class="col-xxl-4 about-containers">
-                        <i class="fa-solid fa-4x fa-timeline text-center mb-2 w-100" id="about-icons"></i>
+                        <i class="main-title fa-solid fa-3x fa-timeline text-center mb-2 w-100" id="about-icons"></i>
                         <h4 class="text-uppercase fs-4 fw-bold text-center mt-2 mb-2">História</h4>
                         <p class="fs-5 mb-3 fw-bold text-center mb-2">
                             Cada membro já tem uma vasta experiência no mercado de energia solar e com o tempo foi
@@ -149,35 +150,86 @@
                             da equipe e nossos clientes.
                         </p>
                     </div>
-                    <div class="col-xxl-7">
-                        <div class="about-containers">
-                            <i class="fa-solid fa-4x fa-bullseye text-center mb-2 w-100" id="about-icons"></i>
-                            <h4 class="text-uppercase fs-4 fw-bold text-center mt-2 mb-2">Objetivo</h4>
-                            <p class="fs-5 mb-3 fw-bold text-center mb-2">
-                                Criar uma empresa que seja referência e reconhecida por um excelente serviço e
-                                atendimento
-                                em nossa região, levando o melhor do que a energia
-                                solar pode fornecer as pessoas tanto no âmbito econômico e ambiental.
-                            </p>
-                        </div>
-                        <div class="about-containers">
-                            <i class="fa-solid fa-4x fa-users text-center mb-2 w-100" id="about-icons"></i>
-                            <h4 class="text-uppercase fs-4 fw-bold text-center mt-2 mb-2">Equipe</h4>
-                            <p class="fs-5 mb-3 fw-bold text-center mb-2">
-                                Contamos com uma equipe especializada que passa por constante treinamento para atender
-                                melhor o cliente,
-                                com cada profissional tendo experiência e competência na execução dos serviços.
-                            </p>
-                        </div>
+                    <div class="col-xxl-4 about-containers">
+                        <i class="main-title fa-solid fa-3x fa-bullseye text-center mb-2 w-100" id="about-icons"></i>
+                        <h4 class="text-uppercase fs-4 fw-bold text-center mt-2 mb-2">Objetivo</h4>
+                        <p class="fs-5 mb-3 fw-bold text-center mb-2">
+                            Criar uma empresa que seja referência e reconhecida por um excelente serviço e
+                            atendimento
+                            em nossa região, levando o melhor do que a energia
+                            solar pode fornecer as pessoas tanto no âmbito econômico e ambiental.
+                        </p>
+                    </div>
+                    <div class="col-xxl-4 about-containers">
+                        <i class="main-title fa-solid fa-3x fa-users text-center mb-2 w-100" id="about-icons"></i>
+                        <h4 class="text-uppercase fs-4 fw-bold text-center mt-2 mb-2">Equipe</h4>
+                        <p class="fs-5 mb-3 fw-bold text-center mb-2">
+                            Contamos com uma equipe especializada que passa por constante treinamento para atender
+                            melhor o cliente,
+                            com cada profissional tendo experiência e competência na execução dos serviços.
+                        </p>
                     </div>
                 </div>
             </div>
 
         </section>
 
-        <!-- HOW TO WORK -->
+        <!-- SOLAR ENERGY -->
         <section id="solar-energy">
 
+            <div class="container-fluid pt-5 pb-5">
+                <h4 class="main-title text-uppercase text-center pb-5 fs-2 fw-bold">Energia Solar</h4>
+                <div class="row d-flex justify-content-evenly flex-wrap">
+                    <div class="row-col col-xl-6 d-flex">
+                        <img class="process-img align-self-center" src="assets/img/solar-energy-process.jpg"
+                            alt="Processo de energia solar">
+                    </div>
+                    <div class="col col-xl-5">
+                        <ul class="d-flex flex-column">
+                            <li class="fs-6 mb-5 d-flex">
+                                <div class="align-self-center me-3">
+                                    <i class="fa-solid fa-a fa-2x"></i>
+                                </div>
+                                <div class="align-self-center me-3">
+                                    <i class="fa-solid fa-caret-right text-primary"></i>
+                                </div>
+                                Durante o dia, a luz solar que incide sobre os painéis é absorvida e convertida em
+                                energia elétrica, corrente contínua (CC).
+                            </li>
+                            <li class="fs-6 mb-5 d-flex">
+                                <div class="align-self-center me-3">
+                                    <i class="fa-solid fa-b fa-2x"></i>
+                                </div>
+                                <div class="align-self-center me-3">
+                                    <i class="fa-solid fa-caret-right text-primary"></i>
+                                </div>
+                                O inversor capta a corrente contínua e a transforma em corrente alternada (CA) que pode
+                                ser consumida na casa ou empresa.
+                            </li>
+                            <li class="fs-6 mb-5 d-flex">
+                                <div class="align-self-center me-3">
+                                    <i class="fa-solid fa-c fa-2x"></i>
+                                </div>
+                                <div class="align-self-center me-3">
+                                    <i class="fa-solid fa-caret-right text-primary"></i>
+                                </div>
+                                A corrente alternada (CA) é então consumida na residência ou empresa, gerando energia
+                                para lâmpadas, eletrodomésticos e outros.
+                            </li>
+                            <li class="fs-6 d-flex">
+                                <div class="align-self-center me-3">
+                                    <i class="fa-solid fa-d fa-2x"></i>
+                                </div>
+                                <div class="align-self-center me-3">
+                                    <i class="fa-solid fa-caret-right text-primary"></i>
+                                </div>
+                                O excedente de energia gerada é injetada na rede de distribuição, gerando créditos que
+                                podem ser utilizados em até 60 meses.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <!-- SERVICES -->
@@ -238,76 +290,75 @@
         <!-- SOLAR ENERGY -->
         <section id="benefits">
 
-                <div class="container-fluid p-0" id="apply-area">
-                    <div class="row">
-                        <div class="col-md-4" id="benefits-img"></div>
-                        <div class="col-md-8" id="benefits-container">
-                            <h6 class="main-title text-white text-uppercase fs-4 pb-5 text-center fw-bold">Benefícios da
-                                energia solar</h6>
-                            <div class="row text-center">
-                                <div class="col-md-6">
-                                    <i class="fa-solid fa-plug-circle-minus fa-2xl text-info" id="benefits-icons"></i>
-                                    <h6 class="pb-4 fs-6 fw-bold">Redução de gastos com eletricidade</h6>
-                                    <p class="p-icons fw-bold">
-                                        Ao instalar o sistema de energia solar, você praticamente não terá mais gastos
-                                        com energia elétrica. O custo será praticamente zero.
-                                    </p>
-                                </div>
-                                <div class="col-md-6">
-                                    <i class="fa-solid fa-house-circle-check fa-2xl text-info" id="benefits-icons"></i>
-                                    <h6 class="pb-4 fs-6 fw-bold">Enviar a energia para outro local</h6>
-                                    <p class="p-icons fw-bold">
-                                        O excedente da energia produzido pelas placas podem ser utilizados em outros
-                                        locais.
-                                    </p>
-                                </div>
-                                <div class="col-md-6">
-                                    <i class="fa-solid fa-screwdriver-wrench fa-2xl text-warning"
-                                        id="benefits-icons"></i>
-                                    <h6 class="pb-4 fs-6 fw-bold">Barateamento de custos</h6>
-                                    <p class="p-icons fw-bold">
-                                        A Hashimoto Solar também tem no mesmo grupo a Matecon, empresa que vende
-                                        material de construção
-                                        e elétrico, o qual ajuda na hora de fazer o projeto de energia solar e baratear
-                                        os custos.
-                                    </p>
-                                </div>
-                                <div class="col-md-6">
-                                    <i class="fa-solid fa-hand-fist fa-2xl text-warning" id="benefits-icons"></i>
-                                    <h6 class="pb-4 fs-6 fw-bold">Sistema com grande durabilidade e resistência</h6>
-                                    <p class="p-icons fw-bold">
-                                        Painéis solares possuem garantia de 10 anos contra defeitos de fabricação e de
-                                        25 anos de eficiência,
-                                        o que valida a questão de credibilidade e durabilidade da vida útil do sistema
-                                        fotovoltaico.
-                                    </p>
-                                </div>
-                                <div class="col-md-6 pb-2">
-                                    <i class="fa-solid fa-hand-holding-dollar fa-2xl"></i>
-                                    <h6 class="pb-4 fs-6 fw-bold">Valorização do imóvel</h6>
-                                    <p class="p-icons fw-bold">
-                                        A redução da conta de luz é vista como um grande diferencial na hora de escolher
-                                        um imóvel para comprar.
-                                        Portanto, mesmo que você não queira ficar no imóvel para sempre, com certeza o
-                                        valor de venda será maior.
-                                    </p>
-                                </div>
-                                <div class="col-md-6 pb-2">
-                                    <i class="fa-solid fa-coins fa-2xl"></i>
-                                    <h6 class="pb-2 fs-6 fw-bold">Adquira créditos energéticos</h6>
-                                    <p class="p-icons fw-bold">
-                                        Excedente da energia pode ser injetado na rede de distribuição e ficar como
-                                        crédito para ser utilizado em até 60 meses.
-                                        Dessa forma, permitindo o uso da energia elétrica quando a produção de
-                                        energia solar não for possível, ou seja,
-                                        continuar utilizando eletricidade sem aumentar o valor da
-                                        conta.
-                                    </p>
-                                </div>
+            <div class="container-fluid p-0" id="apply-area">
+                <div class="row">
+                    <div class="col-md-4" id="benefits-img"></div>
+                    <div class="col-md-8" id="benefits-container">
+                        <h6 class="main-title text-white text-uppercase fs-4 pb-5 text-center fw-bold">Benefícios da
+                            energia solar</h6>
+                        <div class="row text-center">
+                            <div class="col-md-6">
+                                <i class="fa-solid fa-plug-circle-minus fa-2xl text-info" id="benefits-icons"></i>
+                                <h6 class="pb-4 fs-6 fw-bold">Redução de gastos com eletricidade</h6>
+                                <p class="p-icons fw-bold">
+                                    Ao instalar o sistema de energia solar, você praticamente não terá mais gastos
+                                    com energia elétrica. O custo será praticamente zero.
+                                </p>
+                            </div>
+                            <div class="col-md-6">
+                                <i class="fa-solid fa-house-circle-check fa-2xl text-info" id="benefits-icons"></i>
+                                <h6 class="pb-4 fs-6 fw-bold">Enviar a energia para outro local</h6>
+                                <p class="p-icons fw-bold">
+                                    O excedente da energia produzido pelas placas podem ser utilizados em outros
+                                    locais.
+                                </p>
+                            </div>
+                            <div class="col-md-6">
+                                <i class="fa-solid fa-screwdriver-wrench fa-2xl text-warning" id="benefits-icons"></i>
+                                <h6 class="pb-4 fs-6 fw-bold">Barateamento de custos</h6>
+                                <p class="p-icons fw-bold">
+                                    A Hashimoto Solar também tem no mesmo grupo a Matecon, empresa que vende
+                                    material de construção
+                                    e elétrico, o qual ajuda na hora de fazer o projeto de energia solar e baratear
+                                    os custos.
+                                </p>
+                            </div>
+                            <div class="col-md-6">
+                                <i class="fa-solid fa-hand-fist fa-2xl text-warning" id="benefits-icons"></i>
+                                <h6 class="pb-4 fs-6 fw-bold">Sistema com grande durabilidade e resistência</h6>
+                                <p class="p-icons fw-bold">
+                                    Painéis solares possuem garantia de 10 anos contra defeitos de fabricação e de
+                                    25 anos de eficiência,
+                                    o que valida a questão de credibilidade e durabilidade da vida útil do sistema
+                                    fotovoltaico.
+                                </p>
+                            </div>
+                            <div class="col-md-6 pb-2">
+                                <i class="fa-solid fa-hand-holding-dollar fa-2xl"></i>
+                                <h6 class="pb-4 fs-6 fw-bold">Valorização do imóvel</h6>
+                                <p class="p-icons fw-bold">
+                                    A redução da conta de luz é vista como um grande diferencial na hora de escolher
+                                    um imóvel para comprar.
+                                    Portanto, mesmo que você não queira ficar no imóvel para sempre, com certeza o
+                                    valor de venda será maior.
+                                </p>
+                            </div>
+                            <div class="col-md-6 pb-2">
+                                <i class="fa-solid fa-coins fa-2xl"></i>
+                                <h6 class="pb-2 fs-6 fw-bold">Adquira créditos energéticos</h6>
+                                <p class="p-icons fw-bold">
+                                    Excedente da energia pode ser injetado na rede de distribuição e ficar como
+                                    crédito para ser utilizado em até 60 meses.
+                                    Dessa forma, permitindo o uso da energia elétrica quando a produção de
+                                    energia solar não for possível, ou seja,
+                                    continuar utilizando eletricidade sem aumentar o valor da
+                                    conta.
+                                </p>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
 
         </section>
 
@@ -319,12 +370,10 @@
         <!-- BUDGET -->
         <section id="budget">
 
-            <div class="container-fluid p-0 text-white" id="budget-img">
+            <div class="container-fluid text-white p-0" id="budget-img">
                 <div class="row align-items-center pt-5 pb-5">
-                    <div class="col-lg-6 text-center">
-                        <h6 class="main-title text-white text-uppercase fs-2 pb-2 fw-bold text-center">Orçamento
-                            Gratuito
-                        </h6>
+                    <div class="col-lg-6 text-center mb-4">
+                        <h6 class="main-title text-white text-uppercase fs-2 pb-2 fw-bold">Orçamento Gratuito</h6>
                         <h6 class="fs-6 pt-4 fw-bold">Contate-nos via Whatsapp</h6>
                         <a class="btn btn-outline-light btn-floating m-2 mb-4 border-2 rounded-pill" id="whatsapp-icon"
                             href="https://web.whatsapp.com/send?phone=5591988278405" target="_blank" role="button">
@@ -335,7 +384,7 @@
                     <div class="col-lg-6 text-center">
                         <form action="https://formsubmit.co/hashimotosolar2022@gmail.com" method="POST">
                             <div class="w-50 mx-auto">
-                                <h6 class="main-title text-white text-center fs-3 pb-4 fw-bold">Mande um e-mail</h6>
+                                <h6 class="main-title text-white fs-3 pb-4 fw-bold">Mande um e-mail</h6>
                                 <label for="necessary" class="form-label fs-6 fw-bold">Decreva seu pedido</label>
                                 <textarea name="Descrição do pedido de orçamento" placeholder="Escreva aqui" required
                                     class="form-control border-white rounded-pill w-100 border-3"
@@ -392,28 +441,28 @@
                 </div>
             </div>
         </section>
-        
+
 
         <footer id="footer">
 
-            <div class="container-fluid pt-2 pb-2">
-                <div class="row pb-3 pt-3 mx-auto">
+            <div class="container-fluid pt-2 pb-2 border-top border-1 border-white">
+                <div class="row pt-3 d-flex mx-auto">
                     <div class="col-lg-6 mb-4 mx-auto">
-                        <h6 class="text-uppercase mb-4 text-start fs-3">Hashimoto Solar S/A</h6>
-                        <p class="fs-6 text-start mt-3">
-                            <i class="adress fas fa-home "></i>
+                        <h6 class="text-uppercase mb-4 text-start fs-4">Hashimoto Solar S/A</h6>
+                        <p class="footers-p text-start mt-3">
+                            <i class="adress fas fa-home me-2"></i>
                             Santa Lídia, Euzébio Foreliza, 3671 - Castanhal - PA
                         </p>
-                        <p class="company-email text-start mt-3">
-                            <i class="fas fa-envelope "></i>
-                            hashimotosolar2022@gmail.com
+                        <p class="footers-p text-start mt-3">
+                            <i class="fas fa-envelope me-2"></i>
+                            contato@hashimotosolar.com 
                         </p>
-                        <p class="fs-6 text-start mt-3">
-                            <i class="fas fa-phone "></i>
+                        <p class="footers-p text-start mt-3">
+                            <i class="fas fa-phone me-2"></i>
                             <a href="tel:+559188278405" class="phone">+55 91 98827-8405</a>
                         </p>
-                        <p class="fs-6 text-start mt-3">
-                            <i class="fa-solid fa-location-dot"></i> CEP 68.740-410
+                        <p class="footers-p text-start mt-3">
+                            <i class="fa-solid fa-location-dot me-2"></i> CEP 68.740-410
                         </p>
                     </div>
 
@@ -423,18 +472,18 @@
                             Siga-nos nas redes sociais
                         </h6>
                         <div class="text-center">
-                            <a class="btn btn-outline-light btn-floating m-2 border-2" id="social-networks"
+                            <a class="btn btn-outline-light btn-floating m-2" id="social-networks"
                                 href="https://www.instagram.com/hashimotosolar/" target="_blank" role="button">
-                                <i class="fa-brands fa-2x fa-instagram"></i>
+                                <i class="fa-brands fa-1x fa-instagram"></i>
                             </a>
-                            <a class="btn btn-outline-light btn-floating m-2 border-2" id="social-networks" 
-                            href="https://www.facebook.com/Hashimoto-Solar-106407522031401"
-                                target="_blank" role="button">
-                                <i class="fa-brands fa-2x ps-1 pe-1 fa-facebook-f"></i>
+                            <a class="btn btn-outline-light btn-floating m-2" id="social-networks"
+                                href="https://www.facebook.com/Hashimoto-Solar-106407522031401" target="_blank"
+                                role="button">
+                                <i class="fa-brands fa-1x ps-1 pe-1 fa-facebook-f"></i>
                             </a>
-                            <a class="btn btn-outline-light btn-floating m-2 border-2" id="social-networks"
+                            <a class="btn btn-outline-light btn-floating m-2" id="social-networks"
                                 href="https://twitter.com/HashimotoSolar" target="_blank" role="button">
-                                <i class="fa-brands fa-2x fa-twitter"></i>
+                                <i class="fa-brands fa-1x fa-twitter"></i>
                             </a>
                         </div>
                     </div>
