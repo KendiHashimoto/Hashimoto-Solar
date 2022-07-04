@@ -21,7 +21,7 @@
 ## 💻 Sobre
 
 
-☀️ Hashimoto Solar - é um site voltado para o ramo da energia solar e melhor apresentação da empresa.
+☀️ Hashimoto Solar - é um site estático institucional voltado para o ramo da energia solar e também, maior presença da empresa na internet
 
 ---
 
