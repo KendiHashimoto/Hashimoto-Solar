@@ -26,7 +26,7 @@
 ---
 
 ## 🌐 Site
-<a href="https://hashimotosolar.com/">📎 Clique aqui</a> 
+<a href="https://hashimoto-solar.vercel.app/">📎 Clique aqui</a> 
 
 ---
 
